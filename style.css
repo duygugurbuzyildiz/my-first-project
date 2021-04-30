@@ -1,0 +1,158 @@
+body{
+    background:linear-gradient(rgba(253, 216, 235, 0.1), rgb(255, 255, 255));
+    background-size: auto;
+    position: relative;
+    background-blend-mode:soft-light;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(255, 41, 148, 0.1);
+    padding: 2% 1%;
+}
+.topPage {
+    background-image: url("http://clipart-library.com/images_k/healthy-food-transparent/healthy-food-transparent-11.png");
+    background-color: #cccccc;
+    height: 8vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    background-blend-mode:soft-light;
+    border:4px solid rgb(100, 20, 20);
+    box-shadow:2px 2px 5px rgb(100, 20, 20);
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1.5%;
+    color: rgba(100, 20, 20, 0.8);
+    font-size: 2.9vw;
+    font-family:cursive;
+    font-feature-settings: "smcp", "zero";
+    font-weight: bolder;
+}
+.heading{
+    text-align: center;
+    font-family:cursive;
+    color: rgba(99, 39, 4, 0.8);
+    margin: 0 auto;
+    padding: 2%;
+    font-size: 1.4vw;
+}
+.recipes{
+    display: block;
+    margin: 0 auto;
+}
+.recipesImage{
+    display: inline;
+    text-align: center;
+    padding: 2%;
+}
+.recipesImageFirst{
+    display: inline;
+    padding: 10%;
+    
+}
+.recipesImageSecond{
+    display: inline;
+    padding: 10%;
+    
+}
+.smoothie{
+    width: 23%;
+}
+.salmon{
+    width: 22.5%;
+}
+.recipesText{
+    display: inline;
+    font-size: 1vw;
+    font-family: cursive;
+    margin-right: 15%;
+    padding-right: 15%;
+}
+.spanFirst:before{
+    content:" "; 
+    display:inline-block; 
+    width:12%;
+}
+.linkFirst{
+    text-decoration: none;
+}
+.spanSecond:before{
+    content:" "; 
+    display:inline-block; 
+    width:20%;
+}
+.linkSecond{
+    text-decoration: none;
+}
+.middlePage{
+    padding: 2%;
+}
+.middlePageLeft{
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 1.6%;
+    width: 40%;
+    margin: 0 auto;
+    padding-right: 1.%;
+}
+.nutrient{
+    width: 90%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+.middlePageRight{
+    display: inline;
+    font-family:cursive;
+    margin-left: 50%;
+    padding-left: 2%;
+}
+.nutritionBody{
+    line-height: 1.5;
+    text-align: left;
+    font-family:cursive;
+    font-size: 1.3vw;
+}
+.linkThird{
+    text-decoration: none;
+}
+button{
+    display: block;
+    font-size: 1.7vw;
+    margin: 15px auto;
+    background: #9771F3;
+    color: white;
+    border-radius: 30px;
+    padding: 2%;
+    border: 1px solid #9771F3;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.publisher{
+    text-align: center;
+    font-size: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.smoothie:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.salmon:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.linkFirst:hover{
+    text-decoration: underline;
+}
+.linkSecond:hover{
+    text-decoration: underline;
+}
+.linkThird:hover{
+    text-decoration: underline;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+            
+}
